@@ -11,10 +11,7 @@
 
 .info {
  width: 670px;
- margin: 0px; padding: 0px; border: 0px;
- margin-left: 70px;
- margin-top: 20px;
- background-color: #fdd;
+ margin: 20px; padding: 0px; border: 0px;
 }
 
 .heading {
@@ -54,7 +51,7 @@
 .portfolio {
   width: 670px;
   margin: 0px; padding: 0px; border: 0px;
-  margin-left: 65px;
+  margin: 20px;
   margin-top: 30px;
   white-space: normal;
  
