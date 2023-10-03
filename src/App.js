@@ -3,7 +3,7 @@ import './App.css';
 import repaySrc from './repay.jpg';
 import cryptoSrc from './crypto.jpg';
 import solarSrc from './solar.jpg';
-import lousweeperSrc from './wip.jpg';
+import minesweeperSrc from './minesweeper.jpg';
 import resume from './resume.pdf';
 
 const PortfolioItem = ({ title, imgSrc, description, link }) => {
@@ -50,8 +50,8 @@ function App() {
         <div className="heading">
           🔎 Check out my Portfolio<br/>
         </div>
+        <PortfolioItem title={"Lou's Minesweeper"} description={"JavaScript, React-Redux, CSS, AWS, SVG"} imgSrc={minesweeperSrc} link={'http://louminesweeper.com'} />
         <PortfolioItem title={"Crypto Price Checker"} description={"JavaScript, React, Redux, API, Sass, CSS"} imgSrc={cryptoSrc} link={'https://louisgrif.github.io/cryptolookup'} />
-        <PortfolioItem title={"LouSweeper"} description={"JavaScript, React, SVG, CSS"} imgSrc={lousweeperSrc} link={'https://github.com/louisgrif/lousweeper'} />
         <PortfolioItem title={"Model Solar System"} description={"JavaScript, THREE.js"} imgSrc={solarSrc} link={'https://github.com/louisgrif/solarsystem'} />
         <PortfolioItem title={"RePay"} description={"Figma, Prototyping, UI, UX"} imgSrc={repaySrc} link={'https://www.figma.com/proto/88YPQbFCRu2BpfthEhy5AP/RePay?node-id=534%3A4&scaling=scale-down&page-id=534%3A3&starting-point-node-id=534%3A4'} />
       </div>
